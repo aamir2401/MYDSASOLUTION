@@ -75,30 +75,51 @@ class Stack
 
 int main()
 {
-    Stack s(10);
-    s.push1(1);
-    s.printing();
-    s.push1(2);
-    s.printing();
-    s.push1(3);
-    s.printing();
-    s.push1(4);
-    s.printing();
-    s.push1(5);
-    s.printing();
+    //stack using stl;
+    stack<int> st;
+    st.push(1);
+    st.push(1);
+    st.push(4);
+    st.push(1);
+    st.push(5);
+    st.push(1);
+    st.push(6);
+    int ss = st.size();
+    cout<<"s"<<ss;
+    cout<<endl;
+    while(!st.empty())
+    {
+        cout<<st.top()<<" "<<endl;
+        st.pop();
+    }
     
-    s.push2(5);
-    s.printing();
-    s.push2(4);
-    s.printing();
-    s.push2(3);
-    s.printing();
-    s.push2(2);
-    s.printing();
-    s.push2(1);
-    s.printing();
-    s.push2(121);
-    s.printing();
+    cout<<"s "<<st.size();
+
+    // Stack s(10);
+    // s.push1(1);
+
+    // s.printing();
+    // s.push1(2);
+    // s.printing();
+    // s.push1(3);
+    // s.printing();
+    // s.push1(4);
+    // s.printing();
+    // s.push1(5);
+    // s.printing();
+    
+    // s.push2(5);
+    // s.printing();
+    // s.push2(4);
+    // s.printing();
+    // s.push2(3);
+    // s.printing();
+    // s.push2(2);
+    // s.printing();
+    // s.push2(1);
+    // s.printing();
+    // s.push2(121);
+    // s.printing();
 
 
 
