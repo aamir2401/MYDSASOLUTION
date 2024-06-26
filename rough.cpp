@@ -34,11 +34,11 @@
 // }
 
 
-#include<iostream>
-#include<vector>
-using namespace std;
-int main()
-{
+// #include<iostream>
+// #include<vector>
+// using namespace std;
+// int main()
+// {
     // vector<int> a{1,2,3};
     // vector<int> b{4,5,6};
     // vector<int> c{7,8,9};
@@ -51,20 +51,20 @@ int main()
     //     for(int j=0; j<vec[0].size(); j++)
     //     {
     //         cout<<vec[i][j]<<" ";
-    //     }
-    //     cout<<endl;
-    // }
+//     //     }
+//     //     cout<<endl;
+//     // }
 
-    vector<vector<int>> vec(4, vector<int>(9,0));
-    for(int i=0; i<vec.size(); i++)
-    {
-        for(int j=0; j<vec[0].size(); j++)
-        {
-            cout<<vec[i][j]<<" ";
-        }
-        cout<<endl;
-    }
-}
+//     vector<vector<int>> vec(4, vector<int>(9,0));
+//     for(int i=0; i<vec.size(); i++)
+//     {
+//         for(int j=0; j<vec[0].size(); j++)
+//         {
+//             cout<<vec[i][j]<<" ";
+//         }
+//         cout<<endl;
+//     }
+// }
 
 
 
