@@ -22,7 +22,7 @@ void remove_all_dup(string &a)
     }
     while(!st.empty())
     {
-        cout<<"2423"<<endl;
+        // cout<<"2423"<<endl;
         cout<<st.top();
         st.pop();
     }

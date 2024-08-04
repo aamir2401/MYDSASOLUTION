@@ -90,62 +90,64 @@
 
 
 
-// #include<iostream>
-// #include<queue>
-// using namespace std;
-// class Node
-// {
-//     public:
-//      int data;
-//      Node* left;
-//      Node* right;
-//      Node(int data)
-//      {
-//         this -> data = data;
-//         left = NULL;
-//         right = NULL;
-//      }
-// };
-// Node* buildingTree()
-// {
-//     int data;
-//     cout<<"Enter data: "<<endl;
-//     cin>>data;
-//     if(data == -1)
-//     {
-//         return NULL;
-//     }
-//     Node* root = new Node(data);
-//     cout<<"Enter the data for left of "<<data<<endl;
-//     root -> left = buildingTree();
-//     cout<<"Enter the data for right of "<<data<<endl;
-//     root -> right = buildingTree();
-//     return root;
+#include<iostream>
+#include<queue>
+using namespace std;
+class Node
+{
+    public:
+     int data;
+     Node* left;
+     Node* right;
+     Node(int data)
+     {
+        this -> data = data;
+        left = NULL;
+        right = NULL;
+     }
+};
+Node* buildingTree()
+{
+    int data;
+    cout<<"Enter data: "<<endl;
+    cin>>data;
+    if(data == -1)
+    {
+        return NULL;
+    }
+    Node* root = new Node(data);
+    cout<<"Enter the data for left of "<<data<<endl;
+    root -> left = buildingTree();
+    cout<<"Enter the data for right of "<<data<<endl;
+    root -> right = buildingTree();
+    return root;
 
-// }
-// void levelOrderTrav(Node* root)
-// {
-//     queue <Node*> q;
-//     q.push(root);
-//     q.push(NULL);
-//     while(!q.empty())
-//     {
-//         Node* temp = q.front();
-//         q.pop();
-//         if()
-//     }
+}
+void levelOrderTrav(Node* root)
+{
+    queue <Node*> q;
+    q.push(root);
+    q.push(NULL);
+    while(!q.empty())
+    {
+        Node* temp = q.front();
+        q.pop();
+        if(true)
+        {
+        }
+    }
     
 
-// }
-// int main()
-// {
-//    Node* root = NULL;
-//    root = buildingTree();
+}
+int main()
+{
+   Node* root = NULL;
+   root = buildingTree();
    
 
 
 
 
 
-//     return 0;
-// }
+    return 0;
+}
