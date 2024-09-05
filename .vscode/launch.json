@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/BATCH_SUP",
-      "program": "d:/BATCH_SUP/build/Debug/outDebug",
+      "cwd": "d:/BATCH_SUP/Array_imp_ques",
+      "program": "d:/BATCH_SUP/Array_imp_ques/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
