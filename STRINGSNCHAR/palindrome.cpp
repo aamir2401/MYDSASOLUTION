@@ -1,6 +1,7 @@
 #include <iostream>
 #include<string>
 #include <cstring>
+using namespace std;
 bool findPalindrome (char ch[])
 {
     int i=0;
@@ -20,7 +21,6 @@ bool findPalindrome (char ch[])
     }
      return true;
 }
-using namespace std;
 int main()
 { 
    char ch[100];
