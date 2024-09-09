@@ -22,8 +22,6 @@ int main()
     cout<<"str with spaces: "<<str<<endl;
     int result = getUniqueCharCount(str);
     cout<<"Result for unique char count: "<<result<<endl;
-
-
-
+    
     return 0;
 }
