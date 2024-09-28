@@ -1,5 +1,5 @@
 //Maximum sum such that no two elements are adjacent (Stickler Thief)
-
+//This solution is not sufficient for online coding platform like gfg or leetcode because it will through TLE;
 #include <vector>
 #include <iostream>
 #include<limits.h>
